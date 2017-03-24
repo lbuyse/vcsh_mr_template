@@ -23,6 +23,7 @@ tmp/
 .ghc/
 .swt/
 .gtk*
+.config/mr/config.d
 .config/albert.conf
 .config/dconf
 .config/systemd
