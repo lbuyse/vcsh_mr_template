@@ -1,0 +1,12 @@
+[$HOME/projects/cicd/puppet/language-puppet]
+checkout =
+    git clone git@mygithub.com:PierreR/language-puppet.git language-puppet
+    cd language-puppet
+    git remote add upstream git@mygithub.com:bartavelle/language-puppet.git
+    git checkout -b upstream
+    git pull -q upstream master
+    git branch --set-upstream-to=upstream/master upstream
+    git config user.email "pierrer@pi3r.be"
+    ln -s $HOME/.stack.yaml stack.yaml
+    cabal2nix . > default.nix
+skip = ([ "$1" = update ])

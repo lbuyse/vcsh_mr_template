@@ -1,0 +1,2 @@
+[$HOME/projects/pi3r/notebook]
+checkout = git clone git@mygithub.com:PierreR/notebook.git notebook
