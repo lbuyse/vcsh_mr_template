@@ -1,3 +1,0 @@
-[$HOME/.config/nixpkgs/overlays]
-checkout = git clone git@github.com:CIRB/nixpkgs-overlays.git overlays
-skip = ([ "$1" = update ])
