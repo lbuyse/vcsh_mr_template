@@ -6,3 +6,6 @@ checkout = git clone ssh://git@stash.cirb.lan:7999/cicd/stash-management.git sta
 
 [$HOME/projects/cicd/management/puppet]
 checkout = git clone ssh://git@stash.cirb.lan:7999/cicd/puppet-stack-management.git puppet
+
+[$HOME/projects/cicd/changes]
+checkout = git clone ssh://git@stash.cirb.lan:7999/cicd/changes.git changes
