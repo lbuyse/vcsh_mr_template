@@ -1,3 +1,4 @@
 [$HOME/.config/vcsh/repo.d/mr.git]
 checkout = vcsh clone git://github.com/CIRB/vcsh_mr_template.git mr
+post_clone = vcsh mr update-index --assume-unchanged .mrconfig
 push = vcsh mr push git@github.com:CIRB/vcsh_mr_template.git
