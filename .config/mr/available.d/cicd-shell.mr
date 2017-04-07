@@ -2,5 +2,5 @@
 checkout =
     git clone -b v1 ssh://git@stash.cirb.lan:7999/cicd/cicd-shell.git shell
     cd shell
-    ln -s $HOME/.stack.yaml stack.yaml
+    ln -s $HOME/.dev/stack.yaml stack.yaml
     cabal2nix . > default.nix

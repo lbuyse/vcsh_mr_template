@@ -1,2 +1,6 @@
 [$HOME/projects/cicd/devbox/box]
-checkout = git clone git@github.com:CIRB/devbox.git box
+checkout =
+  git clone git@github.com:CIRB/devbox.git box
+  cd box/user
+  ln -s $HOME/.dev/stack.yaml stack.yaml
+skip = ([ "$1" = update ])

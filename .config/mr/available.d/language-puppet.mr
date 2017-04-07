@@ -7,6 +7,6 @@ checkout =
     git pull -q upstream master
     git branch --set-upstream-to=upstream/master upstream
     git config user.email "pierrer@pi3r.be"
-    ln -s $HOME/.stack.yaml stack.yaml
+    ln -s $HOME/.dev/stack.yaml stack.yaml
     cabal2nix . > default.nix
 skip = ([ "$1" = update ])
