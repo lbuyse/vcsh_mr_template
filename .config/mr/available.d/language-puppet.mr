@@ -1,4 +1,4 @@
-[$HOME/projects/cicd/puppet/language-puppet]
+[$HOME/projects/cicd/language-puppet]
 checkout =
     git clone git@mygithub.com:PierreR/language-puppet.git language-puppet
     cd language-puppet
