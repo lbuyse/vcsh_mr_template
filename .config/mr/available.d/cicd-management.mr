@@ -7,5 +7,8 @@ checkout = git clone ssh://git@stash.cirb.lan:7999/cicd/stash-management.git sta
 [$HOME/projects/cicd/management/puppet]
 checkout = git clone ssh://git@stash.cirb.lan:7999/cicd/puppet-stack-management.git puppet
 
+[$HOME/projects/cicd/management/jenkins]
+checkout = git clone ssh://git@stash.cirb.lan:7999/cicd/jenkins-management.git jenkins
+
 [$HOME/projects/cicd/changes]
 checkout = git clone ssh://git@stash.cirb.lan:7999/cicd/changes.git changes
