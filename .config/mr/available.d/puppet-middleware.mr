@@ -4,5 +4,6 @@ checkout =
     pushd $HOME/projects/cicd/puppet/middleware
     git submodule update --init
     ln -s ../../bin/pre-push .git/hooks/pre-push
+    make import-gpg-keys
     popd
 skip = ([ "$1" = update ])
