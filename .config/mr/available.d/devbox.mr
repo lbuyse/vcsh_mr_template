@@ -1,4 +1,4 @@
-[$HOME/projects/cicd/devbox/box]
+[$HOME/projects/bric/cicd/devbox/box]
 checkout =
   git clone git@github.com:CIRB/devbox.git box
   cd box/user

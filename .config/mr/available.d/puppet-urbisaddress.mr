@@ -1,7 +1,7 @@
-[$HOME/projects/cicd/puppet/urbisaddress]
+[$HOME/projects/bric/urbisaddress/puppet-stack-urbisaddress]
 checkout =
-    git clone ssh://git@stash.cirb.lan:7999/bes/puppet-stack-urbisaddress.git urbisaddress
-    pushd $HOME/projects/cicd/puppet/urbisaddress
+    git clone ssh://git@stash.cirb.lan:7999/bes/puppet-stack-urbisaddress.git
+    pushd $HOME/projects/bric/urbisaddress/puppet-stack-urbisaddress
     git submodule update --init
     ln -s ../../bin/pre-push .git/hooks/pre-push
     popd

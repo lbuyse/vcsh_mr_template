@@ -1,7 +1,7 @@
-[$HOME/projects/cicd/jenkins/pipeline/iam]
+[$HOME/projects/bric/iam/jenkins-pipeline]
 checkout =
-    git clone ssh://git@stash.cirb.lan:7999/iam/iam-jenkins-pipeline.git iam
-    pushd $HOME/projects/cicd/jenkins/pipeline/iam
+    git clone ssh://git@stash.cirb.lan:7999/iam/iam-jenkins-pipeline.git jenkins-pipeline
+    pushd $HOME/projects/bric/iam/jenkins-pipeline
     git submodule update --init
     popd
 skip = ([ "$1" = update ])

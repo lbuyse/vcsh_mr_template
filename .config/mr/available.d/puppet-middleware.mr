@@ -1,7 +1,7 @@
-[$HOME/projects/cicd/puppet/middleware]
+[$HOME/projects/bric/cicd/puppet/middleware]
 checkout =
     git clone ssh://git@stash.cirb.lan:7999/middleware/puppet-stack-middleware.git middleware
-    pushd $HOME/projects/cicd/puppet/middleware
+    pushd $HOME/projects/bric/cicd/puppet/middleware
     git submodule update --init
     ln -s ../../bin/pre-push .git/hooks/pre-push
     make import-gpg-keys

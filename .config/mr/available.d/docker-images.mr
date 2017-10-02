@@ -1,3 +1,3 @@
-[$HOME/projects/cicd/docker/images]
+[$HOME/projects/bric/cicd/docker/images]
 checkout =
     git clone ssh://git@stash.cirb.lan:7999/cicd/docker-images.git images

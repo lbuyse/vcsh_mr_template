@@ -1,7 +1,7 @@
-[$HOME/projects/cicd/puppet/smartcity]
+[$HOME/projects/bric/smartcity/puppet-stack-smartcity]
 checkout =
-    git clone ssh://git@stash.cirb.lan:7999/scy/puppet-stack-smartcity.git smartcity
-    pushd $HOME/projects/cicd/puppet/smartcity
+    git clone ssh://git@stash.cirb.lan:7999/scy/puppet-stack-smartcity.git
+    pushd $HOME/projects/bric/smartcity/puppet-stack-smartcity
     git submodule update --init
     ln -s ../../bin/pre-push .git/hooks/pre-push
     popd

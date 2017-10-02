@@ -1,4 +1,4 @@
-[$HOME/projects/cicd/salt/base]
+[$HOME/projects/bric/cicd/salt/base]
 checkout =
     git clone ssh://git@stash.cirb.lan:7999/CICD/salt-stack-base.git base
 skip = ([ "$1" = update ])

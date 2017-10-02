@@ -1,4 +1,4 @@
-[$HOME/projects/cicd/shell]
+[$HOME/projects/bric/cicd/shell]
 checkout =
     git clone ssh://git@stash.cirb.lan:7999/cicd/cicd-shell.git shell
     cd shell

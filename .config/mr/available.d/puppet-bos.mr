@@ -1,7 +1,7 @@
-[$HOME/projects/cicd/puppet/bos]
+[$HOME/projects/bric/bos/puppet-stack-bos]
 checkout =
-    git clone ssh://git@stash.cirb.lan:7999/bos/puppet-stack-bos.git bos
-    pushd $HOME/projects/cicd/puppet/bos
+    git clone ssh://git@stash.cirb.lan:7999/bos/puppet-stack-bos.git
+    pushd $HOME/projects/bric/bos/puppet-stack-bos
     git submodule update --init
     popd
 skip = ([ "$1" = update ])

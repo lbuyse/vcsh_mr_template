@@ -1,2 +1,2 @@
-[$HOME/projects/cicd/puppet/template]
+[$HOME/projects/bric/cicd/puppet/template]
 checkout = git clone ssh://git@stash.cirb.lan:7999/cicd/puppet-stack-template.git template

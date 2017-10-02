@@ -1,7 +1,7 @@
-[$HOME/projects/cicd/puppet/fidus]
+[$HOME/projects/bric/fidus/puppet-stack-fidus]
 checkout =
-    git clone ssh://git@stash.cirb.lan:7999/fidus/puppet-stack-fidus.git fidus
-    pushd $HOME/projects/cicd/puppet/fidus
+    git clone ssh://git@stash.cirb.lan:7999/fidus/puppet-stack-fidus.git
+    pushd $HOME/projects/bric/fidus/puppet-stack-fidus
     git submodule update --init
     ln -s ../../bin/pre-push .git/hooks/pre-push
     popd
