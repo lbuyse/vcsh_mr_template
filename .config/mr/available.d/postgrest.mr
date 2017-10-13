@@ -1,0 +1,12 @@
+[$HOME/projects/hub/postgrest]
+checkout =
+    git clone git@mygithub.com:PierreR/postgrest.git postgrest
+    cd postgrest
+    git remote add upstream https://github.com/begriffs/postgrest.git
+    git checkout -b upstream
+    git pull -q upstream master
+    git branch --set-upstream-to=upstream/master upstream
+    git config user.email "pierrer@pi3r.be"
+    ln -s $HOME/.dev/stack.yaml stack.yaml
+    cabal2nix . > default.nix
+skip = ([ "$1" = update ])
